@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class PromocaoAtacado {
+public static void main(String[] args) {
+	//variaveis
+	double preco = 0;
+	double qtd = 0;
+	double qtdT = 0;
+	double desconto = 0;
+	// leitor
+	Scanner leitor = new Scanner(System.in);
+	//captação de dados
+	System.out.println("Digite o preço");
+	preco = leitor.nextDouble();
+	System.out.println("Digite a quantidade");
+	qtd = leitor.nextDouble();
+	//fechar leitor
+	leitor.close();
+	//processamento
+	qtdT = qtd * preco;
+	//começar pelo maior ao menor para economizar recursos
+	if (qtdT > 30) {
+		desconto = preco * 0.7;
+	} else if (qtdT > 20) {
+		desconto = preco * 0.8;
+	} else if (qtdT > 10) {
+		desconto = preco * 0.85;
+	}
+	
+}
+}

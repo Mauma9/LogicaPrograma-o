@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class IdForma {
+public static void main(String[] args) {
+	//variaveis
+	int forma = 0;
+	double peri = 0;
+	double area = 0;
+	double lado = 0;
+	// leitor
+	Scanner leitor = new Scanner(System.in);
+	System.out.println("Digite o código da forma");
+	forma = leitor.nextInt();
+	System.out.println("Digite o tamanho do lado");
+	lado = leitor.nextDouble();
+	//fechar leitor
+	leitor.close();
+	//processamento
+	if (forma = 3) {
+		
+		area = ((lado * lado) * Math.sqrt(3)) / 4;
+		
+		peri = forma * lado;
+	} else if (forma = 4) {
+		
+		area = (lado * lado);
+		
+		peri = forma * lado ;
+	}
+	
+}
+}
