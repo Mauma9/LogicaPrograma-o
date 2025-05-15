@@ -30,6 +30,7 @@ org.eclipse.egit.ui.CommitMessageFont=1|OCR A Extended|12.0|2|WINDOWS|1|-16|0|0|
 org.eclipse.egit.ui.DiffHeadlineFont=1|OCR A Extended|12.0|2|WINDOWS|1|-16|0|0|0|400|-1|0|0|0|3|2|1|50|OCR A Extended;
 org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|OCR A Extended|12.0|2|WINDOWS|1|-16|0|0|0|400|-1|0|0|0|3|2|1|50|OCR A Extended;
 org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|OCR A Extended|12.0|2|WINDOWS|1|-16|0|0|0|400|-1|0|0|0|3|2|1|50|OCR A Extended;
+org.eclipse.jdt.ui.ColoredLabels.match_highlight=206,92,0
 org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|OCR A Extended|12.0|2|WINDOWS|1|-16|0|0|0|400|-1|0|0|0|3|2|1|50|OCR A Extended;
 org.eclipse.jdt.ui.editors.textfont=1|OCR A Extended|12.0|2|WINDOWS|1|-16|0|0|0|400|-1|0|0|0|3|2|1|50|OCR A Extended;
 org.eclipse.jface.textfont=1|OCR A Extended|12.0|2|WINDOWS|1|-16|0|0|0|400|-1|0|0|0|3|2|1|50|OCR A Extended;
