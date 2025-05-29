@@ -31,6 +31,6 @@ Scanner leitor = new Scanner(System.in);
 		//saida de dados
 		for (int i = 0 ; i < qtd ; i++) {ystem.out.println("vetor maior[" + i + "] =" + vetorMaior[i]);
 		}
-			S
+			
 	}
 }
