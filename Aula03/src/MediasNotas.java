@@ -26,9 +26,9 @@ public class MediasNotas {
 		//print
 		System.out.println("Sua média é " + media);
 		if (media < 5) {
-			System.out.println("tomou no c*");
+			System.out.println("reprovou");
 		} else {
-			System.out.println("toma a cerveja");
+			System.out.println("passou");
 		}
 		
 	}
