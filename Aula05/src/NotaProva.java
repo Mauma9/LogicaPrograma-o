@@ -18,12 +18,12 @@ public class NotaProva {
 		p3 = leitor.nextDouble();
 		//processamento
 		if ((p1 + p2 + p3) / 3 >= 5) {
-			System.out.println("vai beber porr");
+			System.out.println("passou");
 		} else {
 			System.out.println("Digite a nota da prova substitutiva de recuperação");
 			pS = leitor.nextDouble(); 
 			if (pS >= 5) {
-				System.out.println("passou desgraçado");
+				System.out.println("passou");
 			} else {
 			System.out.println("tenta de novo ano que vem");
 			}
